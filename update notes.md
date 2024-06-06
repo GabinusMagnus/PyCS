@@ -1,2 +1,0 @@
-UPDATE clients 
-SET 
