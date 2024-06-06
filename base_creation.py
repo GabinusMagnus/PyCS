@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect('database.db')
+connection = sqlite3.connect('db_test.db')
 
 
 with open('base_creation.sql') as f:
