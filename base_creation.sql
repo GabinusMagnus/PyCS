@@ -9,3 +9,7 @@ CREATE TABLE test
 
 INSERT INTO test (login, mdp, accessoire) VALUES ('Lui', 'mdp_test', 'Il aime les choux.');
 INSERT INTO test (login, mdp, accessoire) VALUES ('Elle', 'test_mdp', "Elle n'aime pas les choux.");
+
+-- valeurs à tester avec UPDATE
+
+INSERT INTO test (login, mdp) VALUES ('Cyrus', 'à remplacer'), ('Xerxès', 'à remplacer');
